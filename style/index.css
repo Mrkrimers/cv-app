@@ -11,6 +11,7 @@ body {
     color: #E5E5E5;
 }
 
+/* РАБОТА С header */
 header {
     display: flex;
     justify-content: space-between;
@@ -36,16 +37,7 @@ header nav p {
     color: #181717;
 }
 
-
-.preview .img-arrow {
-    background-image: url(../assets/↓.svg);
-    width: 33px;
-    height: 39px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 128px;
-}
-
+/* РАБОТА С .preview */
 .preview .info {
     display: flex;
     justify-content: space-between;
@@ -62,6 +54,69 @@ header nav p {
     color: #606060;
 }
 
+.preview .img-arrow {
+    background-image: url(../assets/↓.svg);
+    width: 33px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 128px;
+}
+
+/* РАБОТА С project */
+.project {
+    margin-top: 83px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.o1,
+.o2,
+.o3 {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+
+.language {
+    color: #606060;
+}
+
+.shots {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+.box-img {
+    background-image: url(../assets/Thumbnail.svg);
+    width: 640px;
+    height: 364px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.line {
+    width: 1115px;
+    height: 2px;
+    background-color: #181717;
+    margin: 108px 0 114px 0;
+}
+
+
+/* РАБОТА с footer */
 footer {
     display: flex;
     justify-content: space-between;
