@@ -73,7 +73,7 @@ header nav p:hover {
     height: 200px;
 }
 
-section .enter {
+.data .enter {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

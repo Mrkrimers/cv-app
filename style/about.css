@@ -122,6 +122,7 @@ header nav p:hover {
     font: 400 32px 'DM Sans';
     color: #181717;
 }
+
 .contacts .e-mail .answer {
     width: 370px;
 }
@@ -164,4 +165,9 @@ footer .networks p:not(:last-child) {
 footer .name {
     font: 500 22px 'DM Sans';
     color: #2429AF;
+}
+
+footer .name:hover {
+    font: 500 32px 'DM Sans';
+    color: #e71515;
 }

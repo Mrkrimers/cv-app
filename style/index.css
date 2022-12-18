@@ -39,9 +39,10 @@ header nav p {
     font: 500 22px "DM Sans";
     color: #181717;
 }
+
 header nav p:not(:last-child) {
     margin-right: 27px;
-    }
+}
 
 header nav p:hover {
     text-decoration: underline;
@@ -51,6 +52,7 @@ header nav p:hover {
 .preview {
     margin-top: 128px;
 }
+
 .preview .info {
     display: flex;
     justify-content: space-between;
@@ -76,6 +78,7 @@ header nav p:hover {
     background-size: contain;
     margin-top: 128px;
 }
+
 .preview .img-arrow:hover {
     top: 3px;
 }
@@ -105,6 +108,7 @@ header nav p:hover {
 .o3 {
     font: 500 22px 'DM Sans';
     color: #181717;
+    width: 350px;
 }
 
 
